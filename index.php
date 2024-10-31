@@ -11,7 +11,7 @@
 
 <div id="container">
 
-	<input id="task" type="text" placeholder="Task" size="30">
+	<input id="task" type="text" placeholder="Task Name" size="30">
 
 	<div id="timer">
 		<span id="min">25</span>:<span id="sec">00</span>
