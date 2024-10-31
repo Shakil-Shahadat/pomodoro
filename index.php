@@ -20,7 +20,7 @@
 	<div id="controls">
 
 		<button id="button-play" onclick="playTimer()" title="Play Pomodoro">
-			<img src="src/play-fill.svg">
+			<img src="src/play.svg">
 		</button>
 
 		<button onclick="resetTimer()" disabled="true" title="Reset Timer">
