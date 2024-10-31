@@ -36,7 +36,7 @@
 		</button>
 
 		<button onclick="" title="Settings">
-			<i class="fa fa-cog"></i>
+			<img src="src/gear.svg">
 		</button>
 
 	</div> <!-- div controls finish -->
