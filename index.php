@@ -1,15 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-
-	<meta charset="UTF-8">
-
+	<meta charset="utf-8">
 	<title>Brain Trainer - A Pomodoro Productivity Timer</title>
-
 	<link rel="shortcut icon" href="src/favicon.ico">
 	<link rel="stylesheet" href="src/style.css">
 	<link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
 
