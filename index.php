@@ -38,7 +38,7 @@
 			<img src="src/gear.svg">
 		</button>
 
-	</div> <!-- div controls finish -->
+	</div>
 
 </div>
 
