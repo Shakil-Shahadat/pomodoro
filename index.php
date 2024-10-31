@@ -32,7 +32,7 @@
 		</button>
 
 		<button onclick="" title="Info">
-			<i class="fa fa-info"></i>
+			<img src="src/info-lg.svg">
 		</button>
 
 		<button onclick="" title="Settings">
