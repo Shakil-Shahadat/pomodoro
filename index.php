@@ -24,7 +24,7 @@
 		</button>
 
 		<button onclick="resetTimer()" disabled="true" title="Reset Timer">
-			<i class="fa fa-repeat"></i>
+			<img src="src/arrow-counterclockwise.svg">
 		</button>
 
 		<button onclick="" title="Take a break">
