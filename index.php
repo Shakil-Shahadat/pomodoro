@@ -28,7 +28,7 @@
 		</button>
 
 		<button onclick="" title="Take a break">
-			<i class="fa fa-coffee"></i>
+			<img src="src/cup-hot.svg">
 		</button>
 
 		<button onclick="" title="Info">
