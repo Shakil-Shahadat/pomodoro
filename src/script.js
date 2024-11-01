@@ -6,11 +6,13 @@ let secCounter;
 function playTimer()
 {
 	secCounter = setInterval( decreaseSec, 1000 );
-	$( '#button-play' )
-		.attr( 'onclick', 'pauseTimer()' )
-		.find( 'i' )
-		.removeClass( 'fa-play' )
-		.addClass( 'fa-pause' );
+
+	// Change the onclick event
+	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'pauseTimer()' );
+
+	// Change play button image
+	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/pause.svg' );
+
 	$( 'button' ).eq( 1 ).attr( 'disabled', false );
 }
 
