@@ -22,7 +22,7 @@
 			<img src="src/play.svg">
 		</button>
 
-		<button onclick="resetTimer()" disabled="true" title="Reset Timer">
+		<button class="resetBtn" onclick="resetTimer()" disabled="true" title="Reset Timer">
 			<img src="src/arrow-counterclockwise.svg">
 		</button>
 
