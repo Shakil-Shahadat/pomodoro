@@ -13,7 +13,8 @@ function playTimer()
 	// Change play button image
 	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/pause.svg' );
 
-	$( 'button' ).eq( 1 ).attr( 'disabled', false );
+	// Enable reset button
+	document.querySelector( '.resetBtn' ).removeAttribute( 'disabled' );
 }
 
 function decreaseSec()
