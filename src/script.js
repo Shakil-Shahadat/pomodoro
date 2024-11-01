@@ -1,3 +1,6 @@
+'use strict';
+
+
 function playTimer()
 {
 	secCounter = setInterval( decreaseSec, 1000 );
