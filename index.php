@@ -18,7 +18,7 @@
 
 	<div id="controls">
 
-		<button id="button-play" onclick="playTimer()" title="Play Pomodoro">
+		<button id="button-play" class="playBtn" onclick="playTimer()" title="Play Pomodoro">
 			<img src="src/play.svg">
 		</button>
 
