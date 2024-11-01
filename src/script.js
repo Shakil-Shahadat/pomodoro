@@ -42,11 +42,12 @@ function decreaseSec()
 function pauseTimer()
 {
 	clearTimeout( secCounter );
-	$( '#button-play' )
-		.attr( 'onclick', 'playTimer()' )
-		.find( 'i' )
-		.removeClass( 'fa-pause' )
-		.addClass( 'fa-play' );
+
+	// Change the onclick event
+	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
+
+	// Change play button image
+	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
 
 	$( 'title' ).text( 'Brain Trainer - A Pomodoro Productivity Timer' );
 }
