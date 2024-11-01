@@ -1,5 +1,7 @@
 'use strict';
 
+let secCounter;
+
 
 function playTimer()
 {
