@@ -49,6 +49,9 @@ function pauseTimer()
 	// Change the onclick event
 	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
 
+	// Change the title attribute
+	document.querySelector( '.playBtn' ).setAttribute( 'title', 'Play Pomodoro' );
+
 	// Change play button image
 	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
 
