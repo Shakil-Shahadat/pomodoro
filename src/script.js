@@ -25,6 +25,7 @@ function playTimer()
 } // End of playTimer()
 
 
+// A function to decrease the time in the timer
 function decreaseSec()
 {
 	let currentMin = parseInt( document.querySelector( '.min' ).innerText );
@@ -57,7 +58,7 @@ function decreaseSec()
 	}
 
 	document.title = document.querySelector( '.timer' ).innerText;
-}
+} // End of decreaseSec()
 
 
 // A function to pause the timer
