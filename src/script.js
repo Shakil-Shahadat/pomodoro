@@ -5,8 +5,10 @@
 let secCounter;
 
 
+// A function to start the timer
 function playTimer()
 {
+	// Call decreaseSec() every second to update the time
 	secCounter = setInterval( decreaseSec, 1000 );
 
 	// Change the onclick event
@@ -20,7 +22,8 @@ function playTimer()
 
 	// Enable reset button
 	document.querySelector( '.resetBtn' ).removeAttribute( 'disabled' );
-}
+} // End of playTimer()
+
 
 function decreaseSec()
 {
