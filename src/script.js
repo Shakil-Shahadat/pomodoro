@@ -59,8 +59,11 @@ function pauseTimer()
 	document.title = 'Brain Trainer - A Pomodoro Productivity Timer';
 }
 
+
+// A function to reset the pomodoro
 function resetTimer()
 {
+	// Turn off the timer
 	clearTimeout( secCounter );
 
 	// Change the onclick event
@@ -78,4 +81,4 @@ function resetTimer()
 	// Set default time
 	document.querySelector( '.min' ).innerText = '25';
 	document.querySelector( '.sec' ).innerText = '00';
-}
+} // End of resetTimer()
