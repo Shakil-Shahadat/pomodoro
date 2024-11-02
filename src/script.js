@@ -33,8 +33,14 @@ function decreaseSec()
 	else if ( currentSec === 0 && currentMin > 0 )
 	{
 		document.querySelector( '.sec' ).innerText = '59';
-		if ( currentMin < 11 ) $( '#min' ).text( '0' + --currentMin );
-		else $( '#min' ).text( --currentMin );
+		if ( currentMin < 11 )
+		{
+			document.querySelector( '.min' ).innerText = '0' + --currentMin;
+		}
+		else
+		{
+			document.querySelector( '.min' ).innerText = --currentMin;
+		}
 	}
 	else if ( currentSec < 11 ) $( '#sec' ).text( '0' + --currentSec );
 	else $( '#sec' ).text( --currentSec );
