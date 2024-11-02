@@ -1,3 +1,4 @@
+// Enable JavaScript strict mode
 'use strict';
 
 let secCounter;
