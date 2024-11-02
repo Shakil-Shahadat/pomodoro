@@ -1,6 +1,7 @@
 // Enable JavaScript strict mode
 'use strict';
 
+// Variable required for the timer
 let secCounter;
 
 
