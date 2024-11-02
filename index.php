@@ -38,9 +38,9 @@
 			<img src="src/gear.svg">
 		</button>
 
-	</div>
+	</div><!-- .controls -->
 
-</div>
+</div><!-- .container -->
 
 <script src="src/script.js"></script>
 </body>
