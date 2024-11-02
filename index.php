@@ -12,7 +12,7 @@
 
 	<input class="task" type="text" placeholder="Task Name" size="30">
 
-	<div id="timer" class="timer">
+	<div class="timer">
 		<span id="min" class="min">25</span>:<span id="sec" class="sec">00</span>
 	</div>
 
