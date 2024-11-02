@@ -62,9 +62,16 @@ function pauseTimer()
 function resetTimer()
 {
 	clearTimeout( secCounter );
-	$( 'button' ).eq( 0 ).find( 'i' ).removeClass( 'fa-pause' );
-	$( 'button' ).eq( 0 ).find( 'i' ).addClass( 'fa-play' );
-	$( 'button' ).eq( 0 ).attr( 'onclick', 'playTimer()' );
+
+	// Change the onclick event
+	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
+
+	// Change the title attribute
+	document.querySelector( '.playBtn' ).setAttribute( 'title', 'Play Pomodoro' );
+
+	// Change play button image
+	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
+
 	$( 'button' ).eq( 1 ).attr( 'disabled', true );
 	$( '#min' ).text( '25' );
 	$( '#sec' ).text( '00' );
