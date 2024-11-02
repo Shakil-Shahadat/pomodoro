@@ -75,6 +75,7 @@ function resetTimer()
 	// Disable reset button
 	document.querySelector( '.resetBtn' ).setAttribute( 'disabled', 'true' );
 
-	$( '#min' ).text( '25' );
-	$( '#sec' ).text( '00' );
+	// Set default time
+	document.querySelector( '.min' ).innerText = '25';
+	document.querySelector( '.sec' ).innerText = '00';
 }
