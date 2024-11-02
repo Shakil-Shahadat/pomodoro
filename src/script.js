@@ -42,8 +42,14 @@ function decreaseSec()
 			document.querySelector( '.min' ).innerText = --currentMin;
 		}
 	}
-	else if ( currentSec < 11 ) $( '#sec' ).text( '0' + --currentSec );
-	else $( '#sec' ).text( --currentSec );
+	else if ( currentSec < 11 )
+	{
+		document.querySelector( '.sec' ).innerText = '0' + --currentSec;
+	}
+	else
+	{
+		document.querySelector( '.sec' ).innerText = --currentSec;
+	}
 
 	$( 'title' ).text( $( '#timer' ).text().trim() );
 }
