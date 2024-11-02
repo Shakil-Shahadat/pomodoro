@@ -22,8 +22,8 @@ function playTimer()
 
 function decreaseSec()
 {
-	var currentSec = parseInt( $( '#sec' ).text() );
-	var currentMin = parseInt( $( '#min' ).text() );
+	let currentMin = parseInt( document.querySelector( '.min' ).innerText );
+	let currentSec = parseInt( document.querySelector( '.sec' ).innerText );
 
 	if ( currentSec === 0 && currentMin === 0 )
 	{
