@@ -16,7 +16,7 @@
 		<span class="min">25</span>:<span class="sec">00</span>
 	</div>
 
-	<div id="controls" class="controls">
+	<div class="controls">
 
 		<button id="button-play" class="playBtn" onclick="playTimer()" title="Play Pomodoro">
 			<img src="src/play.svg">
