@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Brain Trainer - A Pomodoro Productivity Timer</title>
+	<title>Pomodoro Timer</title>
 	<link rel="shortcut icon" href="src/favicon.ico">
 	<link rel="stylesheet" href="src/style.css">
 </head>
