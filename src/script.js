@@ -59,8 +59,11 @@ function decreaseSec()
 	document.title = document.querySelector( '.timer' ).innerText;
 }
 
+
+// A function to pause the timer
 function pauseTimer()
 {
+	// Turn off the timer
 	clearTimeout( secCounter );
 
 	// Change the onclick event
@@ -74,7 +77,7 @@ function pauseTimer()
 
 	// Set attribute
 	document.title = 'Pomodoro Timer';
-}
+} // End of pauseTimer()
 
 
 // A function to reset the pomodoro
