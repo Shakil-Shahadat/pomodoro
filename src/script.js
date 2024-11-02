@@ -51,7 +51,7 @@ function decreaseSec()
 		document.querySelector( '.sec' ).innerText = --currentSec;
 	}
 
-	$( 'title' ).text( $( '#timer' ).text().trim() );
+	document.title = document.querySelector( '.timer' ).innerText;
 }
 
 function pauseTimer()
