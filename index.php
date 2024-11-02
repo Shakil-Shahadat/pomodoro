@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pomodoro Timer</title>
+	<link rel="icon" href="src/alarm.svg" type="image/svg+xml">
 	<link rel="stylesheet" href="src/style.css">
 </head>
 <body>
