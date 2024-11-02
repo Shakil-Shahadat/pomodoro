@@ -42,7 +42,6 @@
 
 </div>
 
-<script src="../../src/jquery/jquery.js"></script>
 <script src="src/script.js"></script>
 </body>
 </html>
