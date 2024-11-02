@@ -72,7 +72,9 @@ function resetTimer()
 	// Change play button image
 	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
 
-	$( 'button' ).eq( 1 ).attr( 'disabled', true );
+	// Disable reset button
+	document.querySelector( '.resetBtn' ).setAttribute( 'disabled', 'true' );
+
 	$( '#min' ).text( '25' );
 	$( '#sec' ).text( '00' );
 }
