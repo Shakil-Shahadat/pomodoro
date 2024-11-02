@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<div id="container">
+<div id="container" class="container">
 
 	<input id="task" type="text" placeholder="Task Name" size="30">
 
