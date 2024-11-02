@@ -68,7 +68,7 @@ function pauseTimer()
 	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
 
 	// Set attribute
-	document.title = 'Brain Trainer - A Pomodoro Productivity Timer';
+	document.title = 'Pomodoro Timer';
 }
 
 
