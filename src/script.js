@@ -34,7 +34,14 @@ function decreaseSec()
 	if ( currentSec === 0 && currentMin === 0 )
 	{
 		resetTimer();
-		alert( 'Times Up!' );
+		if ( document.querySelector( '.task' ).value === '' )
+		{
+			alert( 'Times Up!' );
+		}
+		else
+		{
+			alert( '\'' + document.querySelector( '.task' ).value + '\' ends!' );
+		}
 	}
 	else if ( currentSec === 0 && currentMin > 0 )
 	{
