@@ -7,7 +7,6 @@
 .task
 {
 	font-size: 18px;
-	border: none;
 }
 .timer
 {
@@ -17,4 +16,15 @@ button
 {
 	padding: 4px 12px;
 	margin: 0px 5px;
+}
+input
+{
+	border: 1px solid #d9d9d9;
+	padding: 9px;
+}
+input:focus
+{
+	border-color: rgba( 82, 168, 236, 0.8 );
+	box-shadow: 0 0 6px rgba( 102, 175, 233, .6 );
+	outline: 0;
 }
