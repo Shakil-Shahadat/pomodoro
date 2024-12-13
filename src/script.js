@@ -102,18 +102,18 @@ function resetTimer()
 	clearTimeout( secCounter );
 
 	// Change the onclick event
-	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
+	qs( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
 
 	// Change the title attribute
-	document.querySelector( '.playBtn' ).setAttribute( 'title', 'Play Pomodoro' );
+	qs( '.playBtn' ).setAttribute( 'title', 'Play Pomodoro' );
 
 	// Change play button image
-	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
+	qs( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
 
 	// Disable reset button
-	document.querySelector( '.resetBtn' ).setAttribute( 'disabled', 'true' );
+	qs( '.resetBtn' ).setAttribute( 'disabled', 'true' );
 
 	// Set default time
-	document.querySelector( '.min' ).innerText = '25';
-	document.querySelector( '.sec' ).innerText = '00';
+	qs( '.min' ).innerText = '25';
+	qs( '.sec' ).innerText = '00';
 } // End of resetTimer()
