@@ -5,6 +5,13 @@
 let secCounter;
 
 
+// A function to shorten querySelector calls
+function qs( cls )
+{
+	return document.querySelector( cls );
+}
+
+
 // A function to start the timer
 function playTimer()
 {
