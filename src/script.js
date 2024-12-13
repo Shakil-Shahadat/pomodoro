@@ -35,43 +35,43 @@ function playTimer()
 // A function to decrease the time in the timer
 function decreaseSec()
 {
-	let currentMin = parseInt( document.querySelector( '.min' ).innerText );
-	let currentSec = parseInt( document.querySelector( '.sec' ).innerText );
+	let currentMin = parseInt( qs( '.min' ).innerText );
+	let currentSec = parseInt( qs( '.sec' ).innerText );
 
 	if ( currentSec === 0 && currentMin === 0 )
 	{
 		resetTimer();
-		if ( document.querySelector( '.task' ).value === '' )
+		if ( qs( '.task' ).value === '' )
 		{
 			alert( 'Times Up!' );
 		}
 		else
 		{
-			alert( '\'' + document.querySelector( '.task' ).value + '\' ends!' );
+			alert( '\'' + qs( '.task' ).value + '\' ends!' );
 		}
 	}
 	else if ( currentSec === 0 && currentMin > 0 )
 	{
-		document.querySelector( '.sec' ).innerText = '59';
+		qs( '.sec' ).innerText = '59';
 		if ( currentMin < 11 )
 		{
-			document.querySelector( '.min' ).innerText = '0' + --currentMin;
+			qs( '.min' ).innerText = '0' + --currentMin;
 		}
 		else
 		{
-			document.querySelector( '.min' ).innerText = --currentMin;
+			qs( '.min' ).innerText = --currentMin;
 		}
 	}
 	else if ( currentSec < 11 )
 	{
-		document.querySelector( '.sec' ).innerText = '0' + --currentSec;
+		qs( '.sec' ).innerText = '0' + --currentSec;
 	}
 	else
 	{
-		document.querySelector( '.sec' ).innerText = --currentSec;
+		qs( '.sec' ).innerText = --currentSec;
 	}
 
-	document.title = document.querySelector( '.timer' ).innerText;
+	document.title = qs( '.timer' ).innerText;
 } // End of decreaseSec()
 
 
