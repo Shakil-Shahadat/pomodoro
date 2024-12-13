@@ -19,16 +19,16 @@ function playTimer()
 	secCounter = setInterval( decreaseSec, 1000 );
 
 	// Change the onclick event
-	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'pauseTimer()' );
+	qs( '.playBtn' ).setAttribute( 'onclick', 'pauseTimer()' );
 
 	// Change the title attribute
-	document.querySelector( '.playBtn' ).setAttribute( 'title', 'Pause Pomodoro' );
+	qs( '.playBtn' ).setAttribute( 'title', 'Pause Pomodoro' );
 
 	// Change play button image
-	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/pause.svg' );
+	qs( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/pause.svg' );
 
 	// Enable reset button
-	document.querySelector( '.resetBtn' ).removeAttribute( 'disabled' );
+	qs( '.resetBtn' ).removeAttribute( 'disabled' );
 } // End of playTimer()
 
 
