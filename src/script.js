@@ -82,13 +82,13 @@ function pauseTimer()
 	clearTimeout( secCounter );
 
 	// Change the onclick event
-	document.querySelector( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
+	qs( '.playBtn' ).setAttribute( 'onclick', 'playTimer()' );
 
 	// Change the title attribute
-	document.querySelector( '.playBtn' ).setAttribute( 'title', 'Play Pomodoro' );
+	qs( '.playBtn' ).setAttribute( 'title', 'Play Pomodoro' );
 
 	// Change play button image
-	document.querySelector( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
+	qs( '.playBtn' ).querySelector( 'img' ).setAttribute( 'src', 'src/play.svg' );
 
 	// Set attribute
 	document.title = 'Pomodoro Timer';
